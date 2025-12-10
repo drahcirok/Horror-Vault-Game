@@ -1,0 +1,170 @@
+# Unity .gitignore
+# Generado desde: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+
+# Auto-generated Android files
+*.apk
+*.aab
+*.keystore
+
+# Auto-generated VS/MD/Consulo solution and project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Mac OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+
+# Rider
+.idea/
+*.sln.iml
+*.csproj.iml
+*.userprefs
+*.DotSettings
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Build Results
+*[Bb]uild/
+*[Bb]uilds/
+
+# Local History for Visual Studio
+.localhistory/
+
+# BeatPulse healthcheck temp database
+healthchecksdb
+
+# Backup folder for Package Reference Convert tool in Visual Studio 2017
+MigrationBackup/
+
+# Ionide (cross platform F# VS Code tools) working folder
+.ionide/
+
+# Fody - auto-generated XML schema
+FodyWeavers.xsd
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OSX
+.DS_Store
+
+# Visual Studio
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# Unity specific
+*.prefab.meta
+*.asset.meta
+*.mat.meta
+*.controller.meta
+*.anim.meta
+*.physicMaterial.meta
+*.physicsMaterial.meta
+
+# Unity Package Manager (UPM) cache
+**/[Uu]pm-cache/
+
+# Generated project files
+[Pp]ackages/
+**/Packages/manifest.json
+**/Packages/packages-lock.json
+**/ProjectSettings/Packages/com.unity.connect.share/
+
+# Cache directory for Package Manager
+**/Library/PackageCache/
+
+# Unity auto generated folder
+**/[Aa]ssets/AssetStoreTools*
